@@ -1,0 +1,18 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "main",
+    "origin",
+    "security/issue-190-implement-threshold-signature-scheme-tss-mpc"
+  ],
+  "parent": {
+    "main": null,
+    "origin": "main",
+    "security/issue-190-implement-threshold-signature-scheme-tss-mpc": "main"
+  },
+  "order": [
+    "main",
+    "origin",
+    "security/issue-190-implement-threshold-signature-scheme-tss-mpc"
+  ]
+}
