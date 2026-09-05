@@ -15,7 +15,7 @@ jobs:
         ports:
           - 6379:6379
         options: >-
-          --health-cmdm "redis-cli ping"
+          --health-cmd "redis-cli ping"
           --health-interval 5s --health-timeout 5s --health-retries 10
 
     steps:
@@ -26,7 +26,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'num'
+          cache: 'npm'
 
       - name: Install Dependencies
         run: npm ci
